@@ -68,7 +68,7 @@
 /* home section */
 #home{
     display: flex;
-    height: 420px;
+    height: 460px;
     flex-direction: column;
     padding: 3px 150px;
     justify-content: center;
@@ -135,7 +135,7 @@
 }
 
 #services{
-    margin: 4px;
+    margin: 4px 0px 35px 0px;
     display: flex;
 }
 
@@ -170,7 +170,7 @@
     position: absolute;
     background-image: url("images/sponsers.jpg");
     width: 100%;
-    height: 70%;
+    height: 66.2%;
     z-index:-1;
     opacity: 0.3;
     background-position:center;
