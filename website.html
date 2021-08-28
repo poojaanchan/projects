@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service | Barbecue.com</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="websitephone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="images/logobbq.png" alt="Barbecue.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Services</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+            <li class="item"><a href="#">Help</a></li>
+            <!-- <li class="item"><a href="#">Login</a></li> -->
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To Barbecue </h1>
+        <p>With over 100 dishes on the menu, live grill on the table, and multiple live counter, Barbecue is the perfect place to celebrate your special occasion.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="images/services2.jpg" alt="Menu">
+                <h2 class="h-secondary center"> Menu </h2>
+                <p class="center">Global Menu, Live counters for personalized dishes & mouth-watering deserts. With a wide variety of cuisine, cooking styles, each dining experience at Barbecue is an adventure in itself.</p>
+            </div>
+            <div class="box">
+                <img src="images/services2..jpg" alt="Arrangements">
+                <h2 class="h-secondary center">Arrangements</h2>
+                <p class="center"> Be it an office team outing, birthday or anniversary celebration, or a reunion with your friends after a long time, our staff are waiting to help to make your day magical one..</p>
+            </div>
+            <div class="box">
+                <img src="images/fooddelivery.jpg" alt="Delivery">
+                <h2 class="h-secondary center"> Delivery</h2>
+                <p class="center">Customers have an option to pre-order for dishes of choice or place a request in-case they don’t find what they are looking for. Food is delivered to the customer’s doorstep.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Sponsers</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="images/ubereats.png" alt="ubereats">
+            </div>
+            <div class="client-item">
+                <img src="images/zomato.png" alt="ubereats">
+            </div>
+            <div class="client-item">
+                <img src="images/swiggy.jpg" alt="ubereats">
+            </div>
+            <div class="client-item">
+                <img src="images/panda.jpg" alt="ubereats">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Sign Up</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="fname">First Name : </label>
+                    <input type="text" name="fname" id="fname" placeholder="Enter Your First Name" required >
+                </div>
+                <div class="form-group">
+                    <label for="lname">Last Name : </label>
+                    <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail : </label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your E-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" placeholder="Enter Password" required minlength="7">
+                </div>
+                <div class="form-group">
+                    <label for="number"> Phone Number : </label>
+                    <input type="number" name="number" id="number" placeholder="Enter Your Phone Number" maxlength="10" required >
+                </div>
+                <div class="form-group">
+                    <label for="address"> Address : </label>
+                    <textarea name="address" id="address" cols="20" rows="5" maxlength="60" required></textarea>
+                </div>
+                <div class="form-group" >
+                    <label for="pin"> Pin Code : </label>
+                    <input type="number" name="pin" id="pin" required maxlength="6" >
+                </div><br>
+                <input type="submit" value="Create Account" class="submit" >
+                <p id ="or" class="center">OR</p>
+                <input type="submit" value="Sign in" class="submit">
+            </form>
+        </div>
+    </section>
+    </section>
+    <footer>
+        <div class="center">
+            <p>Copyright &copy; www.barbecue.com All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
